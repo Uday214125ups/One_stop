@@ -38,9 +38,15 @@
               </div>
 
               <div class="mb-3">
-                <label class="form-label">time</label>
+                <label class="form-label"> Start time</label>
                 <input type="time" name="time" class="form-control" id="time" placeholder="Eg:- 9 pm">
               </div>
+
+              <div class="mb-3">
+                <label class="form-label"> End time</label>
+                <input type="time" name="time" class="form-control" id="time2" placeholder="Eg:- 12pm">
+              </div>
+
 
               <div class="mb-3">
                 <label class="form-label">Venue</label>

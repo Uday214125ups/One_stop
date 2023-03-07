@@ -1,0 +1,97 @@
+.event{
+    margin-top: .8rem;
+    width: 100%;
+    height: 100vh;
+}
+
+.col{
+    padding-inline: .7rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.card{
+    display: inline-block;
+    position: relative;
+    margin: 1rem;
+    width: 26rem;
+    height: 35rem;
+    border-radius: 3rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-image: url("/model-2.jpg");
+    overflow: hidden;
+}
+
+.img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/*--------------DETAIL BOX---------------*/
+
+.detail{
+    position: absolute;
+    padding-inline: 2rem;
+    bottom: -1rem;
+    right: -1rem;
+    width: 22rem;
+    height:26rem ;
+    color: #fff;
+
+    background: rgba(0, 0, 0, 0.4);
+    /* background-color: rgba(255, 255, 255, 0.595); */
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+
+
+}
+
+
+/*--------------HEADING---------------*/
+
+.heading-1{
+    font-size: 2rem;
+    font-weight: 800;
+    text-shadow: 1px 0px 5px rgba(0, 0, 0, 0.452);
+}
+
+
+/*--------------LINE---------------*/
+
+.line{
+    width: 16rem;
+    height: .5px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    background-color:#fff;
+}
+
+/*--------------WORK DETAIL---------------*/
+
+.work{
+    margin-block:8px;
+    font-size: 1.1rem;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.452);
+}
+
+
+/*--------------BUTTON---------------*/
+
+
+.btn{
+
+    font-family: inherit;
+    font-size: 1.3rem;
+    font-weight: 600;
+    width: 12rem;
+    height: 3rem;
+    background-color: white;
+    color: #000;
+     margin-top:1rem; 
+    border: none;
+    border-radius: .5rem;
+    cursor: pointer;
+
+}

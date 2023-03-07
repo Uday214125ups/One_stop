@@ -1,0 +1,49 @@
+
+.banner{
+    margin-top: .8rem;
+    position: relative;
+    width: 100%;
+    height: 65vh;
+    overflow: hidden;
+    background: url(/images/banner.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.banner::after{
+    content: "";
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .8);
+}
+
+.banner-title{
+    font-family: Poppins;
+    position: absolute;
+    z-index: 60;
+    color: white;
+    top: 60%;
+    left: 30%;
+    transform: translateY(-50%);
+
+}
+
+.text-white{
+    font-size: 3rem;
+}
+
+.links-gp{
+    display:flex;
+    justify-content: center;
+}
+  .links{
+    margin-right: 2rem;
+}
+
+.links:last-child{
+    margin-right: 0; 
+
+} 

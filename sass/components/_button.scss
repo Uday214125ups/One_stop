@@ -1,0 +1,36 @@
+.btn_event {
+    cursor: pointer;
+    width: 160px;
+    height: 4rem;
+    background: rgba(23, 98, 167, 1);
+    border: none;
+    outline: none;
+    color: white;
+    border-radius: 1rem;
+    font-size: 1.4rem;
+    transition: all .2s;
+  }
+  .btn_event:hover{
+    scale: 1.1;
+
+  }
+
+
+
+  .btn-login {
+    cursor: pointer;
+    width: 5rem;
+    height: 2rem;
+    background: rgba(23, 98, 167, 1);
+    border: none;
+    outline: none;
+    color: white;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    transition: all .2s;
+  }
+
+  .btn-login:hover{
+    scale: 1.1;
+
+  }

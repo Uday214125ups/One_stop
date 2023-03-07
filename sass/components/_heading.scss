@@ -1,0 +1,19 @@
+.ticket-heading{
+    font-family: Poppins;
+    text-transform: uppercase;
+    font-style: oblique;
+    text-align: center;
+    font-size: 2rem;
+    color: #fff;
+    padding-block: 1rem;
+    letter-spacing: 2px;
+    color:rgb(176, 35, 194); 
+    font-weight:300;
+    transition: all .2s;
+
+}
+
+.ticket-heading:hover{
+    transform:skewY(2deg) skewX(20deg) scale(1.1);
+    text-shadow: 0 1rem 2rem rgba(#000 ,0.2) ;
+}

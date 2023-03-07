@@ -1,0 +1,157 @@
+.landing_page{
+    width: 100vw;
+    height: 100vh;
+    background: rgba(47, 48, 58, 1);
+    overflow: hidden;
+  }
+
+  ////////////////////////////////////
+  /// IMAGES
+
+  .img-lady {
+    position: absolute;
+    bottom: 0rem;
+    width: 25rem;
+  }
+
+  .images{
+    width: 640px;
+    height: 600px;
+    position: absolute;
+    bottom: 0rem;
+    right: -1rem;
+    overflow: hidden;
+    
+  }
+  
+  .img-dancer{
+    width: 640px;
+    height: 946px;
+    
+  }
+
+  /////////////////////////////////////////////////
+  /// NAVBAR
+  /// 
+  
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 550px;
+    height: 40px;
+    position: absolute;
+    top: 39px;
+    left: 843px;
+    overflow: hidden;
+  }
+
+  .nav_link{
+    text-decoration: none;
+    font-family: Inter;
+    font-weight: Regular;
+    font-size: 1.2rem;
+    color: rgba(255, 255, 255, 1);
+    transition: all .3s;
+
+
+  }
+  .nav_link:hover{
+    color: black;
+    padding-bottom: 3px;
+    border-bottom: 1px solid black;
+  }
+
+  ///////////////////////////////////////
+  /// TAG LINE
+  /// 
+
+  .label {
+    width: 591px;
+    height: 268px;
+    position: absolute;
+    top: 16rem;
+    left: 419px;
+    overflow: hidden;
+  }
+  .label_text {
+    width: 591px;
+    height: 192px;
+    background: url("../images/label_text.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+  }
+  .label_text-1 {
+    width: 582px;
+    color: rgba(255, 255, 255, 1);
+    position: absolute;
+    top: 0px;
+    left: 4px;
+    font-family: Poppins;
+    font-weight: Regular;
+    font-size: 64px;
+    opacity: 1;
+    text-align: left;
+  }
+  .label_text-2 {
+    width: 591px;
+    position: absolute;
+    top: 112px;
+    left: 0px;
+    color: rgba(255, 255, 255, 1);
+    font-family: Poppins;
+    font-weight: Regular;
+    font-size: 40px;
+    opacity: 1;
+    text-align: center;
+  }
+
+  /////////////////////////////////
+  /// BUTTON DIV
+  /// 
+  
+  .button {
+    width: 160px;
+    height: 4rem;
+    position: absolute;
+    top: 198px;
+    left: 204px;
+  }
+
+  ///////////////////////////////////
+  /// LOGO
+  
+  .logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 392px;
+    height: 86px;
+    position: absolute;
+    top: 12px;
+    left: 168px;
+    overflow: hidden;
+  }
+  .logo_img {
+    width: 97px;
+    height: 86px;
+    background: url("../images/v1_58.png");
+    background-position: center center;
+    background-size: cover;
+  }
+  .logo_text {
+    color: rgba(255, 255, 255, 1);
+    font-family: Poppins;
+    font-weight: Regular;
+    font-size: 36px;
+  }
+
+
+
+  

@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+    overflow-x: hidden;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+/*/////////////////////////////////////////////////////
+/////////////// HEADINGS */
+
+
+.header-1{
+    text-align: center;
+
+    color: rgb(205, 176, 204);
+    font-weight: 600;
+}
+
+.header-2{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+}
+
+
+/*/////////////////////////////////////////////////////
+/////////////// VIDEO */
+
+.bg-video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width:100%;
+    z-index: -1;
+    overflow:hidden;
+}
+
+.bg-video__content{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.bg-video::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background:rgba(0, 0, 0, 0.657) ;
+}
+
+/*/////////////////////////////////////////////////////
+/////////////// CONTAINER */
+
+
+.container{
+    margin: 1rem auto;
+    padding: 2rem;
+    border: 2px white solid;
+    width: 50vw;
+    height: 87vh;
+    border: none;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3.6px);
+    -webkit-backdrop-filter: blur(3.6px);
+    outline: none;
+
+}
+
+/*/////////////////////////////////////////////////////
+/////////////// FORM */
+
+
+.form-label{
+    font-size: 1.2rem;
+    font-weight: 100;
+    margin-bottom: 4px;
+    color: black;
+}
+  
+.btn-1{
+    background-color: #d3ad7f;
+    color:white;
+    width: 100%;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 15px 14px;
+    border-radius: 40px;
+    position: relative;
+    transition: all 0.2s;
+    cursor: pointer;
+    border: none;
+    letter-spacing: 2px;
+}
+
+.btn-1:hover{
+    box-shadow: 0 10px 20px rgba(0, 0,0, 0.2) /* x value y value blur color*/
+}
+
+
+.btn-2{
+    background-color: rgb(217, 12, 50);
+    color:white;
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px 16px;
+    border-radius: 10px;
+    transition: all 0.2s;
+    cursor: pointer;
+    border: none;
+    letter-spacing: 2px;
+}
+.btn-2:hover{
+    transform: scale(1.1);
+    box-shadow: 0 10px 20px rgba(0, 0,0, 0.2) /* x value y value blur color*/
+}
+
+.btn-2 a{
+    text-decoration: none;
+    color: white;
+}
+.justify{
+    position:absolute;
+    top: .5rem;
+    right:1rem ;
+}

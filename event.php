@@ -43,6 +43,15 @@
               </div>
 
               <div class="mb-3">
+<<<<<<< Updated upstream
+=======
+                <label class="form-label"> End time</label>
+                <input type="time" name="time" class="form-control" id="time2" placeholder="Eg:- 9 pm">
+              </div>
+
+
+              <div class="mb-3">
+>>>>>>> Stashed changes
                 <label class="form-label">Venue</label>
                 <input type="text" name="venue" class="form-control" id="venue" placeholder="Eg:- PALASIO ,Lucknow">
               </div>

@@ -5,21 +5,38 @@
 }
 
 body{
-
+    padding: 2rem;
     overflow-x: hidden;
     font-family: 'Poppins', sans-serif;
 }
 
 
+::-webkit-scrollbar {
+    width: 1rem;
 
+
+
+  }
+
+
+
+  ::-webkit-scrollbar-thumb {
+    background:  #d3ad7f;
+    border-radius: 5rem;
+
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #dba86b;
+  }
 /*/////////////////////////////////////////////////////
 /////////////// HEADINGS */
 
 
 .header-1{
+    
     text-align: center;
-
-    color: rgb(205, 176, 204);
+    color:#7f00ff;
     font-weight: 600;
 }
 
@@ -68,7 +85,7 @@ body{
     padding: 2rem;
     border: 2px white solid;
     width: 50vw;
-    height: 87vh;
+    height: 80vh;
     border: none;
     background: rgba(255, 255, 255, 0.2);
     border-radius: 16px;
@@ -76,6 +93,8 @@ body{
     backdrop-filter: blur(3.6px);
     -webkit-backdrop-filter: blur(3.6px);
     outline: none;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
 
 }
 

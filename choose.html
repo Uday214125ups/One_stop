@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="choose.css">
+    <script src="main.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <div class="logo-img"><img src="v1_58.png" class="img" alt="logo"></div>
+            <p class="logo-text">GLA University</p>
+        </div>
+        <button class="btn-2 justify">Log out</button>
+        <div class="container">
+            <h2 class="heading-1">Choose </h2>
+            <button class="btn">Post Article</button>
+            <button class="btn" onclick="togglevideo()">Create Event</button>
+        </div>
+    </header>
+
+    <div class="modal hidden">
+        <button class="btn--close-modal" onclick="closeLogin()">&times;</button>
+        <h2 class="modal__header">
+          LOGIN NOW 
+        </h2>
+        <form class="modal__form" action="connect.php">
+          <label>User Name</label>
+          <input type="text" id="user" />
+          <label>Email Address</label>
+          <input type="email" id="mail"/>
+          <button class="btn-modal">Next step &rarr;</button>
+        </form>
+      </div>
+    <div class="overlay"></div>
+
+
+
+</body>
+</html>
